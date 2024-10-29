@@ -1,15 +1,10 @@
-[React Video Chat App | WebRTC Video Chat Zoom Clone | Tabnine](https://www.youtube.com/watch?v=oxFr7we3LC8)
+# React Video Conferencing App
 
 ## Prerequisites
 
 - Git - [Download & Install Git](https://git-scm.com/downloads).
 - Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
 
-## Downloading
-
-```
-git clone https://github.com/ekater1na/web-rtc-video-chat.git
-```
 
 ## Installing NPM modules for server
 
