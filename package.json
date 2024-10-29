@@ -1,0 +1,40 @@
+{
+  "name": "web-rtc-video-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekater1na/web-rtc-video-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekater1na/web-rtc-video-chat/issues"
+  },
+  "homepage": "https://github.com/ekater1na/web-rtc-video-chat#readme",
+  "dependencies": {
+    "@mui/styles": "^5.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "react-copy-to-clipboard": "^5.1.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.8.1"
+  }
+}
